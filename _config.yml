@@ -1,0 +1,9 @@
+# Site settings
+title: Tech Primer
+description: > # this means to ignore newlines until "baseurl:"
+  A primer on some aspects of tech.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.atechprimer.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

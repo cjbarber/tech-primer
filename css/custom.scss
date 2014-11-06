@@ -1,0 +1,17 @@
+---
+---
+// define it
+@mixin selection {
+  ::-moz-selection { @content; }
+  ::selection { @content; }
+}
+
+// use it
+@include selection {
+  color: white;
+  background: #C39BD3;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #000;
+}
